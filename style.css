@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+header{
+    margin-top: 20px;
+}
+header input{
+    margin-top: 20px;
+    height: 3em;
+    width: 30%;
+}
+header button{
+    padding: 5px;
+    height: 3em;
+    width: 60px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.listItemBox{
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listItemBox p{
+    font-weight: bold;
+    width: 50%;
+    overflow:auto;
+    text-align: left;
+}
+.listItemBox button{
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: red;
+}
